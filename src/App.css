@@ -1,0 +1,51 @@
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.product.card h3 {
+    padding-right: 5px;
+    font-size: 21px;
+    color: #636363;
+}
+.product.card h3 span {
+    font-weight: 500;
+    padding-bottom: 5px;
+    font-size: 13px;
+    color: #fb000d;
+    font-weight: bold;
+}
+.product.card p {
+    color: #959595;
+}
+.product.card button {
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    background-color: #00a99d;
+    border: 1px solid transparent;
+    margin-left: auto;
+    display: block;
+    border-radius: 5px;
+}
+.product.card button:hover{
+    background: #fb000d;
+}
+.product.card {
+    margin-bottom: 24px;
+}
+.product.card h6 {
+    font-size: 21px;
+    color: #ff0000;
+    font-weight: 700;
+}
+.bookClass {
+    text-decoration: none;
+}

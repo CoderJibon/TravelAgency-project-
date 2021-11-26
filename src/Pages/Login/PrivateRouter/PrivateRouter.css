@@ -1,0 +1,15 @@
+.loadingPage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reload{
+    width: 4rem!important;
+    height: 4rem!important;
+}

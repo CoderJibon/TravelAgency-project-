@@ -1,0 +1,64 @@
+.slide_banner{
+    padding-bottom: 180px;
+    padding-top: 270px;
+    background-size: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-image: url('../../../Images/homebanner.jpg');
+}
+
+.carousel-control-prev span {
+    background-color: #1cbbb4;
+    margin-left: -235px;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.carousel-control-next span {
+    background-color: #1cbbb4;
+    margin-right: -235px;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.slider_text span{
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: rgba(28, 187, 180, 0.8);
+    z-index: 999;
+    color: #fff;
+}
+.slider_text h2 {
+    font-size: 50px;
+    padding: 8px 15px;
+    background-color: rgba(28, 187, 180, 0.8);
+    color: #fff;
+    width: max-content;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.slider_text p {
+    font-size: 18px;
+    padding: 8px 15px;
+    background-color: rgba(28, 187, 180, 0.8);
+    color: #fff;
+    width: max-content;
+}
+.carousel-indicators {
+    bottom: -100px!important;
+}
+.carousel-indicators button {
+    background-color: #1cbbb4 !important;
+}
+
+@media only screen and (max-width: 600px){
+    .slider_text p {
+        width:auto;
+    } 
+    .slider_text h2 {
+        width: auto;
+       
+    }
+}

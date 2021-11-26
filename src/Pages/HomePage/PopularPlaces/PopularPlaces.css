@@ -1,0 +1,37 @@
+.places_item {
+	position: relative;
+    transition: 1s;
+}
+.place_info {
+	position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: 1s;
+}
+.place_btn{
+    background-color: #1EC6B6;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 5px 12px;
+    text-decoration: none;
+    transition: 1s;
+}
+.PopularPlaces-container {
+	margin: 50px auto;
+}
+.places_item:hover .place_info h4 {
+	color: red;
+}
+.places_item:hover .place_info .place_btn{
+    background-color: red;
+    color: #fff;
+    transition: 1s;
+}
+.heading p {
+	width: 50%;
+	margin: 30px auto;
+}

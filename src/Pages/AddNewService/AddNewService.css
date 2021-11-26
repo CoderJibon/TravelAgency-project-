@@ -1,0 +1,10 @@
+.addServicePage {
+    padding: 50px 0;
+}
+.addService {
+    max-width: 800px;
+    margin: auto;
+}
+.addServicePage h1 {
+    text-align: center;
+}

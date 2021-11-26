@@ -1,0 +1,11 @@
+.singleService h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.singleService {
+    padding: 50px 0;
+}
+.singleService button {
+    color: #fff;
+    font-weight: bold;
+}

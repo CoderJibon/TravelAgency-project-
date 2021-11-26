@@ -1,0 +1,21 @@
+.red {
+    color: red;
+    font-weight: bold;
+}
+.green {
+    color: green;
+    font-weight: bold;
+}
+.myOrderPage {
+    padding: 50px 0;
+}
+.myOrderPage h1 {
+    margin-bottom: 20px;
+}
+.myOrderPage th {
+    text-transform: uppercase;
+}
+.orderImage {
+    max-width: 110px;
+    border-radius: 8px;
+}

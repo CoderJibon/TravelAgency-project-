@@ -1,0 +1,18 @@
+.ourServices-container {
+	margin: 50px auto;
+}
+.ourServices-container h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.services_list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.service_item img {
+	padding-bottom: 20px;
+}

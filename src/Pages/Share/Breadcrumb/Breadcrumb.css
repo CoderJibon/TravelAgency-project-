@@ -1,0 +1,20 @@
+.breadcrumb-container {
+	padding: 50px 0;
+	background-color: #adb5bd;
+	margin-bottom: 50px;
+}
+.breadcrumb-container ul {
+	display: flex;
+	grid-gap: 10px;
+	margin-bottom: 0;
+	color: currentColor;
+}
+.breadcrumb-container ul a{
+    text-decoration: none;
+}
+
+.breadcrumb-container ul li {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
